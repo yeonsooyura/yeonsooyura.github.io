@@ -69,8 +69,13 @@ head {
     display: none;
 }
 
-#tree, #tree1 {
+#tree {
     height: 100%;
+}
+
+#tree1 {
+    height: 100%;
+    width: 35%;
 }
 #tree2, #tree3, #tree4, #tree5, #tree6, #tree7 {
     position: absolute;
@@ -83,7 +88,7 @@ head {
 #tree2 {
     width: 180px;
     top: 117px;
-    right: 728px;
+    right: 33%;
     z-index: 1;
 }
 #tree2:hover {
@@ -129,7 +134,7 @@ div:hover > .ContextBox {
 #tree3 {
     width: 220px;
     top: 152px;
-    right: 1020px;
+    right: 57%;
     z-index: 1;
 }
 #tree3:hover {
@@ -145,7 +150,7 @@ div:hover > .ContextBox {
 #tree4 {
     width: 220px;
     top: 205px;
-    right: 693px;
+    right: 30%;
     z-index: 1;
 }
 #tree4:hover {
@@ -161,7 +166,7 @@ div:hover > .ContextBox {
 #tree5 {
     width: 180px;
     top: 335px;
-    right: 1030px;
+    right: 57%;
     z-index: 1;
 }
 #tree5:hover {
@@ -177,7 +182,7 @@ div:hover > .ContextBox {
 #tree6 {
     width: 220px;
     top: 435px;
-    right: 690px;
+    right: 30%;
     z-index: 1;
 }
 #tree6:hover {
@@ -193,7 +198,7 @@ div:hover > .ContextBox {
 #tree7 {
     width: 220px;
     top: 548px;
-    right: 1000px;
+    right: 57%;
     z-index: 1;
 }
 #tree7:hover {

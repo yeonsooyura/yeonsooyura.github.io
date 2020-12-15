@@ -9,35 +9,84 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
+    <div class="header animated slideInDown">
+        <div class="deco"></div>
+        <div class="headerTitle">YEONSOOYURA.COM</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
     <div id="images">
         <div id="tree">
             <img id="tree1" src="assets/가지.png" alt="">
             <div id="tree2">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2020</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎1.png" style="width: 100%;" alt="">
             </div>
             <div id="tree3">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2019</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎2.png" style="width: 100%;" alt="">
                 
             </div>
             <div id="tree4">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2018</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎3.png" style="width: 100%;" alt="">
                 
             </div>
             <div id="tree5">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2017</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎4.png" style="width: 100%;" alt="">
                 
             </div>
             <div id="tree6">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2016</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎5.png" style="width: 100%;" alt="">
                 
             </div>
             <div id="tree7">
+                <div class="ContextBox">
+                    <div class="ContextTitle">2015</div>
+                    <iframe class="ContextCard">
+                        
+                    </iframe>
+                </div>
                 <img src="assets/잎6.png" style="width: 100%;" alt="">
-                
             </div>
         </div>
-        <img id="person" class="nonDisplay" src="assets/사람.png" alt="">
-        <div id="ground"></div>
+        <img id="person" class="nonDisplay" src="assets/사람.png" onclick="document.getElementById('snsBlock').style.display = 'block'" alt="">
+        <div id="snsBlock" style="display: none;">
+            <a href="https://www.facebook.com/yeonsooyura"><img id="facebook-ico" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt=""></a>
+            <a href="youtube.com/channel/UC7jdxqtw33TByBAyXFKaq4Q"><img id="youtube-ico" src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" alt=""></a>
+            <a href="https://twitter.com/yeonsooyura"><img id="twitter-ico" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" alt=""></a>
+        </div>
+        <div class="animated slideInUp fast" id="ground"></div>
     </div>
     <script src="animation.js"></script>
 </body>
